@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class attempt {
+public class loginattempt {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

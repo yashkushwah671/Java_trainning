@@ -1,19 +1,26 @@
 import java.util.*;
 
-public class discount {
-    Scanner sc = new Scanner (system.in);
-    system.out.prinln("Amount");
-    amount = sc.nextInt() ;
-    if (amount >= 5000)
-    {
-        amount = 5000- 0.2 ;
+public class Discount {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double amount = sc.nextDouble();
+        String premium = sc.next();
+
+        double discount = 0;
+
+        if (amount >= 5000) {
+            discount = 0.20;
+        }
+        else if (amount >= 3000) 
+            {discount = 0.10;   
+        } 
+
+        if (premium.equalsIgnoreCase("Yes")) {
+            discount += 0.05;
+        }
+
+        double finalAmount = amount - (amount * discount);
+        System.out.println("Final Amount = " + finalAmount);
     }
-    else {
-        System.out.println("no discount");
-    }
-    if (priminum = yes)
-
-
-
-    
 }

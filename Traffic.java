@@ -23,7 +23,7 @@ public class Traffic {
             fine = 0;
         }
 
-        if (repeated.equals("Yes")) {
+        if (repeated.equalsIgnoreCase("Yes")) {
             fine = fine * 2;
         }
 
