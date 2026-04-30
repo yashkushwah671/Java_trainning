@@ -1,7 +1,0 @@
-class hellow
-{
-	public static void main(string args[])
-	{
-	system.out.println("hellow world!");
-	}
-}
